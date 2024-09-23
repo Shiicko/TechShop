@@ -1,31 +1,31 @@
 export const elementos = [
   {
     id: 1,
-    img: "/public/mouse.png",
+    img: "/mouse.png",
     title: "Mouse Gaming",
     category: "Mouse",
   },
   {
     id: 2,
-    img: "/public/teclado.png",
+    img: "/teclado.png",
     title: "Teclados",
     category: "Teclado",
   },
   {
     id: 3,
-    img: "/public/headset.png",
+    img: "/headset.png",
     title: "Auriculares ",
     category: "Auriculares",
   },
   {
     id: 4,
-    img: "/public/silla.png",
+    img: "/silla.png",
     title: "Sillas Gaming",
     category: "Silla",
   },
   {
     id: 5,
-    img: "/public/monitor.png",
+    img: "/monitor.png",
     title: "Monitores",
     category: "Monitor",
   },

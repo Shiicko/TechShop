@@ -6,15 +6,15 @@ export const ProductContainer = styled.div`
   align-items: center;
   text-align: center;
   width: 100%;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
 `;
 
 export const h2Product = styled.h2`
   margin-bottom: 30px;
-  background-color: orange;
+  background-color: #1976d2;
   padding: 8px 16px;
   border-radius: 10px;
-  color: #fff;
+  color: #ffffff;
   font-size: 20px;
 `;
 
@@ -23,14 +23,14 @@ export const CardsContainer = styled.div`
   flex-wrap: wrap;
   gap: 16px;
   justify-content: center;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
 `;
 
 export const Card = styled.div`
   width: 250px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(25, 118, 210, 0.15);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
@@ -40,14 +40,14 @@ export const Card = styled.div`
 
   &:hover {
     transform: translateY(-4px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 20px rgba(25, 118, 210, 0.25);
   }
 `;
 
 export const ImageWrapper = styled.div`
   width: 100%;
   height: 160px;
-  background-color: black;
+  background-color: #f0f4f8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,30 +67,31 @@ export const Content = styled.div`
   align-items: center;
   text-align: center;
   gap: 8px;
-  background-color: #cebaff73;
+  background-color: #f9fcff;
 
   h3 {
     font-size: 16px;
-    color: #333;
+    color: #1e1e2f;
     margin: 0;
   }
 
   p {
     font-size: 15px;
-    color: #666;
+    color: #4f5b62;
     margin: 4px 0;
 
     &:last-child {
       font-size: 14px;
       font-weight: bold;
-      color: #333;
+      color: #263238;
     }
   }
 `;
+
 export const Price = styled.p`
   font-size: 18px;
   font-weight: bold;
-  color: #e67e22;
+  color: #1976d2;
   margin: 8px 0 4px;
 `;
 
@@ -105,5 +106,12 @@ export const ButtonsContainer = styled.div`
     flex: 1;
     font-size: 12px;
     padding: 4px 8px;
+    background-color: #1976d2;
+    color: #ffffff;
+    border-radius: 6px;
+
+    &:hover {
+      background-color: #1565c0;
+    }
   }
 `;

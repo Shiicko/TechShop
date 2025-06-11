@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import * as s from "./HeaderStyled";
 import { FaShoppingCart } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
@@ -32,7 +33,7 @@ export const Navbar = ({ auth, onLogout }) => {
           </s.NavItem>
         </li>
         <SideBar isOpen={isOpen} toggleSidebar={toggleSidebar} />
-        <li key="auth">
+        {/* <li key="auth">
           {auth ? (
             <>
               <s.NavItem to={`/username/${YourUser}`}>
@@ -47,7 +48,7 @@ export const Navbar = ({ auth, onLogout }) => {
               <CiLogin />
             </s.NavItem>
           )}
-        </li>
+        </li> */}
       </s.Nav>
     </s.HeaderContainer>
   );

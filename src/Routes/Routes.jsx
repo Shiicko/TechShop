@@ -5,10 +5,10 @@ import {
 } from "react-router-dom";
 import { Hero } from "../components/Hero/Hero";
 import { Login } from "../Pages/Login/Login";
-import { Username } from "../Pages/username/Username";
+// import { Username } from "../Pages/username/Username";
 import { useState } from "react";
 import { Navbar } from "../components/Header/Navbar";
-import { AuthR } from "../Auth/AuthR";
+// import { AuthR } from "../Auth/AuthR";
 import { LogAuthR } from "../Auth/LogAuthR";
 import { Products } from "../Pages/Products/Products";
 import { Categories } from "../Pages/Categorias/Categories";
@@ -52,14 +52,14 @@ export const AppRoutes = () => {
             </LogAuthR>
           }
         />
-        <Route
+        {/* <Route
           path="username/:username"
           element={
             <AuthR auth={auth}>
               <Username />
             </AuthR>
           }
-        />
+        /> */}
         <Route path="payment" element={<Payment />} />
       </ReactDomRoutes>
 
